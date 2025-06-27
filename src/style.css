@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+#container {
+    min-height: 100vh;
+    background-image: url('../tobias-reich-UV3RF73x-v0-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
