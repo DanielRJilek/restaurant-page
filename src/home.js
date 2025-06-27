@@ -1,8 +1,9 @@
 function homeCreate() {
-    const logo_container = document.createElement('div');
-    const description_container = document.createElement('div');
-    const hours_container = document.createElement('div');
-    const location_container = document.createElement('div');
+    const logo_section = document.createElement('div');
+    const description_section = document.createElement('div');
+    const hours_section = document.createElement('div');
+    const location_section = document.createElement('div');
+    alert('home page loaded successfully');
 }
 
 export { homeCreate };
