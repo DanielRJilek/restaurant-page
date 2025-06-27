@@ -6,7 +6,7 @@ body {
 
 #container {
     min-height: 100vh;
-    background-image: url('../assets/tobias-reich-jycCp4KQ73M-unsplash.jpg');
+    background-image: url('../assets/tobias-reich-UV3RF73x-v0-unsplash.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -14,22 +14,47 @@ body {
 }
 
 header {
+    box-sizing: border-box;
     background-color: white;
-    display:flex;
-    justify-content: center;
-    height: 10vh;
+    height: 14vh;
     margin-bottom: 2vh;
 }
 
+#logo {
+    margin: 0 auto;
+    width: 12vh;
+    height: 10vh;
+}
+
+#arms {
+    height: 7vh;
+    width: 12vh;
+    background-image: url('../assets/512px-Coat_of_arms_of_Bavaria.svg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#name {
+    height: 2vh;
+    width: 12vh;
+    border: 1px solid black;
+    background-image: url('../assets/safwan-thottoli-_YgmNICHdss-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 nav {
+    margin: 0 auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 25vw;
+    height: 4vh;
 }
 
 nav > button {
-    margin: 12.5% 0%;
+    /* margin: 6.25% 0%; */
 }
 
 #content {
