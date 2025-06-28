@@ -11,17 +11,12 @@ body {
 
 #container {
     min-height: 100vh;
-    background-image: url('../assets/tobias-reich-UV3RF73x-v0-unsplash.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
 }
 
 header {
     box-sizing: border-box;
     /* background-color: white; */
-    background-image: url(../assets/ashley-knedler-UdQ4SdV9UE8-unsplash.jpg);
+    background-image: url(../assets/daniel-sessler-WjD8qGV68mQ-unsplash.jpg);
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -75,6 +70,17 @@ nav > button {
 }
 
 #content {
+    background-image: url('../assets/tobias-reich-UV3RF73x-v0-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 82vh;
+    padding-top: 2vh;
+    
+}
+
+#main {
     background: conic-gradient(
         white 0deg 25deg,
         #e6f7ff 25deg 155deg,
@@ -91,4 +97,5 @@ nav > button {
     margin-right: auto;
     border: 0.5vh solid black;
     border-radius: 2vh;
+    margin-top: 2vh;
 }
