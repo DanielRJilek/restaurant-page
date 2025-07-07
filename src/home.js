@@ -41,8 +41,6 @@ function homeCreate() {
     location_section.setAttribute('id','location_section')
     location_section.classList.add('section')
     main.appendChild(location_section)
-
-    alert('home page loaded successfully');
 }
 
 export { homeCreate };
