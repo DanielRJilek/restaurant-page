@@ -24,7 +24,7 @@ function homeCreate() {
     logo_section.appendChild(logo1);
     logo_section.appendChild(name_container);
     logo_section.appendChild(logo2);
-    main.appendChild(logo_section)
+    main.appendChild(logo_section); 
 
     const description_section = document.createElement('div');
     description_section.setAttribute('id', 'description_section')
